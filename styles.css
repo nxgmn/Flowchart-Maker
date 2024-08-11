@@ -1,0 +1,73 @@
+h1 {
+    margin: 10px auto;
+}
+
+.semester {
+
+    display: block;
+    border-style: solid;
+    border-radius: 1cm;
+    border-color: grey;
+    margin: 2%;
+    width: 80%;
+    height: fit-content;
+    min-height: fit-content;
+    padding: 0 2%;
+
+}
+
+.class {
+    
+    display: inline-block;
+    border-style: solid;
+    border: 1%;
+    width: 10%;
+    min-width: none;
+    max-width: 10%;
+    height: 10%;
+    text-align: center;
+    padding: 2%;
+    margin: 2% 2%;
+
+}
+
+.classDesc {
+
+    text-align: center;
+
+}
+
+#math {
+
+    border-color: blue;
+
+}
+
+#csci {
+
+    border-color: orange;
+
+}
+
+#gened {
+
+    border-color: green;
+
+}
+
+#year_title {
+
+    display:block;
+
+}
+
+.navbar {
+
+    display: block;
+    position: fixed;
+    border-style: solid;
+    background-color: antiquewhite;
+    width: auto;
+    height: auto;
+
+}
