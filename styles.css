@@ -1,33 +1,63 @@
-h1 {
-    margin: 10px auto;
+.title{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+
+}
+
+h3{
+
+    font-size: 15px;
+    font-weight: 100;
+    margin-bottom: 0;
+
 }
 
 .semester {
 
-    display: block;
     border-style: solid;
-    border-radius: 1cm;
+    border-radius: 5px;
     border-color: grey;
     margin: 2%;
     width: 80%;
-    height: fit-content;
-    min-height: fit-content;
+    height: 20%;
     padding: 0 2%;
 
 }
 
-.class {
+
+p {
     
-    display: inline-block;
-    border-style: solid;
-    border: 1%;
-    width: 10%;
+    width: 80px;
     min-width: none;
-    max-width: 10%;
-    height: 10%;
+    height: 60px;
+    font-size: 10px;
+    position: absolute;
     text-align: center;
-    padding: 2%;
+    top: 50%;
+    left: 50%;
+    margin-top: -15px;
+    margin-left: -40px;
+    
+}
+
+.class-container {
+
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.class-div {
+
+    flex: .17;
+    padding: auto;
+    border-style: solid;
+    border-width: 2px;
+    width: 100px;
+    height: 60px;
     margin: 2% 2%;
+    position: relative;
 
 }
 
@@ -37,27 +67,22 @@ h1 {
 
 }
 
-#math {
+.form {
 
-    border-color: blue;
-
-}
-
-#csci {
-
-    border-color: orange;
-
-}
-
-#gened {
-
-    border-color: green;
+    width: 5em;
+    border:none;
+    border-bottom: 2px solid black;
+    margin-top: 3%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
 
 }
+
 
 #year_title {
 
     display:block;
+    margin-bottom: 0%;
 
 }
 

@@ -8,44 +8,50 @@
             <script src="/scripts.js" defer></script>
         </head>
         <body>
-            <h1> CS @ RIT Interactive Flowchart</h1>
+            <h1 class="title"> RIT CS Interactive Flowchart</h1>
             <div class="semester" ondrop="drop(event)" ondragover="allowDrop(event)">
-                <p id="year_title">First Semester, First Year</p>
-                <p class="class" id="math" draggable="true" ondragstart="drag(event)">MATH181 <br> Calculus I</p>
-                <p class="class" id="csci" draggable="true" ondragstart="drag(event)">CSCI141 <br> Computer Science I</p>
-                <p class="class" id="gened" draggable="true" ondragstart="drag(event)">PSYC101 <br> Intro to Psychology</p>
-            </div>
-            <div class="semester" ondrop="drop(event)" ondragover="allowDrop(event)">
-                <p id="year_title">Second Semester, First Year</p>
-                <p class="class" id="math" draggable="true" ondragstart="drag(event)">MATH182 <br> Calculus II</p>
-            </div>
-            <div class="semester" ondrop="drop(event)" ondragover="allowDrop(event)">
-                    <p id="year_title">Second Semester, First Year</p>
-            </div>
-            <div class="semester" ondrop="drop(event)" ondragover="allowDrop(event)">
-                    <p id="year_title">First Semester, Second Year</p>
+                <h3 id="year_title">    First Semester, First Year</h3>
+                <div class="class-container">
+                        <div class="class-div" id="MATH181" draggable="true" ondragstart="drag(event)"><p>MATH181<br>Calculus I</p></div>
+                        <div class="class-div" id="CSCI141" draggable="true" ondragstart="drag(event)"><p>CSCI141<br>Computer Science I</p></div>
+                        <div class="class-div" id="WRITY1" draggable="true" ondragstart="drag(event)"><p>1st Year Writing<br><input type="text" class="form">
+                        </p></div>
+                        <div class="class-div" id="WRITY1" draggable="true" ondragstart="drag(event)"><p>1st Year Writing<br><input type="text" class="form" placeholder="UWRT150">
+                        </p></div>
+                        <div class="class-div" id="GEART" draggable="true" ondragstart="drag(event)"><p>GE: Artistic Perspective<br><input type="text" class="form">
+                        </p></div>
+                        <div class="class-div" id="YOPS10" draggable="true" ondragstart="drag(event)"><p>RIT 365<br>First Year Programs</p></div>
+                </div>
             </div>
             <div class="semester" ondrop="drop(event)" ondragover="allowDrop(event)">
-                    <p id="year_title">Second Semester, Second Year</p>
+                <h3 id="year_title">Second Semester, First Year</h3>
             </div>
             <div class="semester" ondrop="drop(event)" ondragover="allowDrop(event)">
-                    <p id="year_title">First Semester, Third Year</p>
+                <h3 id="year_title">Second Semester, First Year</h3>
             </div>
             <div class="semester" ondrop="drop(event)" ondragover="allowDrop(event)">
-                    <p id="year_title">Second Semester, Third Year</p>
-            </div>
-                        <div class="semester" ondrop="drop(event)" ondragover="allowDrop(event)">
-                    <p id="year_title">First Semester, Fourth Year</p>
+                <h3 id="year_title">First Semester, Second Year</h3>
             </div>
             <div class="semester" ondrop="drop(event)" ondragover="allowDrop(event)">
-                    <p id="year_title">Second Semester, Fourth Year</p>
-            </div>
-                        <div class="semester" ondrop="drop(event)" ondragover="allowDrop(event)">
-                    <p id="year_title">First Semester, Fifth Year</p>
+                <h3 id="year_title">Second Semester, Second Year</h3>
             </div>
             <div class="semester" ondrop="drop(event)" ondragover="allowDrop(event)">
-                    <p id="year_title">Second Semester, Fifth Year</p>
+                <h3 id="year_title">First Semester, Third Year</h3>
             </div>
-
+            <div class="semester" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <h3 id="year_title">Second Semester, Third Year</h3>
+            </div>
+            <div class="semester" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <h3 id="year_title">First Semester, Fourth Year</h3>
+            </div>
+            <div class="semester" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <h3 id="year_title">Second Semester, Fourth Year</h3>
+            </div>
+            <div class="semester" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <h3 id="year_title">First Semester, Fifth Year</h3>
+            </div>
+            <div class="semester" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <h3 id="year_title">Second Semester, Fifth Year</h3>
+            </div>
         </body>
     </html>

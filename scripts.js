@@ -5,16 +5,20 @@
     Creates classes in create.html and displays them in main.html
 */
 
+// allowdrop, prevents default browser action
 function allowDrop(ev) {
     ev.preventDefault();
   }
-  
-  function drag(ev) {
+
+// drag function to transfer id
+function drag(ev) {
     ev.dataTransfer.setData("text", ev.target.id);
   }
   
-  function drop(ev) {
+// drop function, intakes transferred data and appends object into parent
+function drop(ev) {
     ev.preventDefault();
     var data = ev.dataTransfer.getData("text");
     ev.target.appendChild(document.getElementById(data));
   }
+
